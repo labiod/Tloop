@@ -1,0 +1,29 @@
+group 'TLoop'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+ext {
+    rxJavaVersion = "2.0.6"
+}
+
+sourceCompatibility = 1.8
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/java"]
+        }
+        resources {
+            srcDirs = ["src/res"]
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "io.reactivex.rxjava2:rxjava:${rxJavaVersion}"
+}
