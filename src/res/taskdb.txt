@@ -1,11 +1,14 @@
 jump;"Call from the roof";10;"2017-05-13 12:27:00"
-jump;"Back to the Future";"2017-05-13 12:27:10";9990
-jump;"Weird morning";10000;"2017-05-17 06:00:00"
-jump;"I don't know where you are";"2017-05-17 06:00:10";"2016-05-13 01:00:00"
-jump;"Back to the Future 2";"2016-05-13 01:00:10";19990
+jump;"Back to the Future";"2017-05-13 12:28:00";199990
+jump;"Weird morning";200000;"2017-05-17 06:00:00"
+jump;"I don't know where you are";"2017-05-17 06:10:00";"2016-05-13 00:00:00"
+jump;"Back to the Future 2";"2016-05-13 01:00:00";19990
 jump;"Cold knee";20000;"2016-05-16 13:36:00"
-jump;"The Night we met";"2016-05-16 13:37:00";"2007-01-19 20:36:00"
-jump;"Wrong bridge";"2007-01-19 20:37:00";"2016-06-22 20:00:00"
-jump;"End of loop";"2016-06-22 20:01:00";-20
-newtimeline;"Create new timeline";-10;%next
+jump;"Back to The Night when we start";"2016-05-16 13:40:00";"2007-01-19 20:30:00"
+jump;"Wrong bridge";"2007-01-19 21:00:00";"2016-06-22 19:00:00"
+jump;"Big night, big makeup";"2016-06-22 20:00:00";"2008-04-18 21:00:00"
+jump;"Night shopping";"2008-04-18 23:00:00";"2017-01-05 19:10:00"
+jump;"Me Before You";"2017-01-05 19:30:00";"2007-09-30 15:00:00"
+jump;"End of loop";"2007-09-30 15:10:00";-10
+newtimeline;"Create new timeline";-5;%next
 clean;"Time for cleaning";11
